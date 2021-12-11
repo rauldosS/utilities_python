@@ -1,10 +1,22 @@
-# 💡 declare
+'''
+    → It is a structure of indexed data stored in sequence, where each element has a 
+    position that is identified by an index.
 
-#             0    1    2    3    4
+    → lists are changeable
+    → Are accessible through the index
+
+    → When to use?
+        It is recommended to use lists when working with homogeneous structures, that is, 
+        when all elements are of the same type (strings, int, float, etc.), and/or when 
+        there is a need to change the items in the collection.
+'''
+
+# 💡 declare
+# index       0    1    2    3    4
 letters =   ['A', 'B', 'C', 'D', 'E']
 l1 =        [1,    2,   3]
 l2 =        [4,    5,   6]
-#            5     4    3    2    1
+# index      5     4    3    2    1
 
 # 💡 slicing
 print('Index 1:', letters[1])
