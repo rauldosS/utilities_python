@@ -16,8 +16,12 @@ salutation(message='Tchau!')
 division(10, 5)
 division(10, 0)
 
-# 💡 
-# 💡 
+# 💡 *args
+
+
+# 💡 **kwargs
+
+
 # 💡 
 # 💡 
 # 💡 
