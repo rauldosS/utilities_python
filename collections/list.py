@@ -42,9 +42,10 @@ l1.extend(l2)
 # 💡 pop() - remove last index
 letters.pop()
 
-# 💡 min(list), max(list)
+# 💡 min(list), max(list), sum(list)
 print( max(letters) )
 print( min(letters) )
+print( sum(letters) )
 
 # 💡 range
 l2 = list(range(1, 100, 8))
