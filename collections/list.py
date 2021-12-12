@@ -18,6 +18,8 @@ l1 =        [1,    2,   3]
 l2 =        [4,    5,   6]
 # index      5     4    3    2    1
 
+l3 = list(range(100)) # list with 100 values
+
 # 💡 slicing
 print('Index 1:', letters[1])
 print('Index 2 to 4: ', letters[2:4])
