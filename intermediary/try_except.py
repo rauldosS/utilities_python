@@ -54,8 +54,27 @@ try:
     division(10, 0)
 except ValueError as error:
     print(error)
-    
+
+'''
+    → Using try and except as a conditional
+'''
+
 # 💡 
+def convert_number(value):
+    try:
+        return int(value)
+    except ValueError:
+        try:
+            return float(value)
+        except ValueError:
+            # return default None
+            pass
+
+number = convert_number('5.5')
+
+print(number)
+
+
 # 💡 
 # 💡 
 # 💡 
