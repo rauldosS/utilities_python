@@ -2,7 +2,7 @@
     → List Comprehension
 '''
 
-# 💡 declare 1
+# 💡 declare
 l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 example = [variable for variable in l1]
