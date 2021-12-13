@@ -22,24 +22,14 @@
     6543298765432 -> Second digit
 '''
 
-from itertools import count
+import cnpj
 
-cnpj = '04.252.011/0001-10'
+input = '04.252.011/0001-10'
+# input = '40.688.134/0001-61'
+# input = '71.506.168/0001-11'
+# input = '12.544.992/0001-05'
 
-cnpj = list(int(i) for i in cnpj[0:15] if i.isdigit())
-
-regressive_multiplication = list(range(5, 1, -1)) + list(range(9, 1, -1))
-
-sum_cnpj = sum([value * regressive_multiplication[index] for index, value in enumerate(cnpj)])
-
-print(sum_cnpj)
-
-formula = 11 - (sum_cnpj % 11)
-
-print(formula)
-
-# --------------------------
-
-regressive_multiplication = list(range(6, 1, -1)) + list(range(9, 1, -1))
-
-print(regressive_multiplication)
+if cnpj.validate(input):
+    print('valid CNPJ')
+else:
+    print('Invalid CNPJ')
