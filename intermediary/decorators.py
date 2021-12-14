@@ -1,5 +1,11 @@
 '''
-    → 
+    → Decorators
+
+    → A decorator in Python is an object that extends/modifies the functionality of a 
+    function (or method) at runtime and is conceptually closer to Java annotation than 
+    to the object-oriented decorator.
+
+    → They are used extensively to extract common code that must be applied to various functions.
 '''
 
 # 💡 decorators

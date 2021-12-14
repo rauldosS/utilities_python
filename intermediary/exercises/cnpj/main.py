@@ -30,6 +30,14 @@ input = '04.252.011/0001-10'
 # input = '12.544.992/0001-05'
 
 if cnpj.validate(input):
-    print('valid CNPJ')
+    print(f'{ cnpj.format(input) } is valid CNPJ.')
 else:
-    print('Invalid CNPJ')
+    print(f'{ cnpj.format(input) } is Invalid CNPJ.')
+
+for i in range(5):
+    new_cnpj = cnpj.generate()
+
+    if cnpj.validate(input):
+        print(f'{ cnpj.format(new_cnpj) } is valid CNPJ.')
+    else:
+        print(f'{ cnpj.format(new_cnpj) } is Invalid CNPJ.')
