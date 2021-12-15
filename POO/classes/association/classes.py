@@ -102,9 +102,3 @@ class Address:
 
     def __del__(self):
         print(f'{ self.city } delete!')
-# 💡 
-# 💡 
-# 💡 
-# 💡 
-# 💡 
-# 💡 

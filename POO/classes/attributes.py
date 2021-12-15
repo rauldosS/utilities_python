@@ -3,8 +3,6 @@
         → They are variable of class
 
         → Whether the value of the class variable in all instances will be changed too
-
-
 '''
 
 # 💡 declare

@@ -30,6 +30,3 @@ class People:
 raul = People.byYearBirth('Raul', 1999)
 
 print(raul.name, raul.age)
-
-# 💡 
-# 💡 
