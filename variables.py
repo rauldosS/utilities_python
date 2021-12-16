@@ -19,6 +19,3 @@ print(message)
 name = input('name: ')
 
 print(name or "You didn't type your name")
-
-# 💡 
-# 💡 

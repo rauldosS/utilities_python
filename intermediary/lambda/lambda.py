@@ -31,6 +31,3 @@ products.sort(key=lambda item: item[1], reverse=False)
 
 # 💡 sorted
 sorted(products, key=lambda item: item[1], reverse=True)
-
-# 💡 
-# 💡 

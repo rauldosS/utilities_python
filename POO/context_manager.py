@@ -50,8 +50,3 @@ def openFile(file, mode):
 
 with openFile('abc.txt', 'w') as file:
     file.write('Anything!')
-
-# 💡 
-# 💡 
-# 💡 
-# 💡 

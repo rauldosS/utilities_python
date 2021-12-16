@@ -30,10 +30,3 @@ cities_states = zip(
 
 for index, state, city in cities_states:
     print(index, state, city)
-
-
-# 💡 
-# 💡 
-# 💡 
-# 💡 
-# 💡 

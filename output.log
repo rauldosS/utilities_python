@@ -1,0 +1,15 @@
+DEBUG:root:This is a debug message
+INFO:root:This is an information message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:Here we have a variable string and an int: 10
+2021-12-15 23:17:44,970: INFO: main Line:26 Person:jess This is an info message
+2021-12-15 23:17:44,970: WARNING: main Line:27 Person:jess This is a warning message
+2021-12-15 23:17:44,970: DEBUG: other_log Line:14 Person:jess This is a debug message
+2021-12-15 23:17:51,794: INFO: main Line:26 Person:jess This is an info message
+2021-12-15 23:17:51,794: WARNING: main Line:27 Person:jess This is a warning message
+2021-12-15 23:17:51,794: DEBUG: other_log Line:14 Person:jess This is a debug message
+2021-12-15 23:21:31,403: INFO: main Line:41 Person:jess This is an info message
+2021-12-15 23:21:31,403: WARNING: main Line:42 Person:jess This is a warning message
+2021-12-15 23:21:31,403: DEBUG: other_log Line:25 Person:jess This is a debug message

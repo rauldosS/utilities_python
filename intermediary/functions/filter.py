@@ -12,10 +12,3 @@ print(list(new_numbers))
 new_products = filter(lambda product: product['price'] > 50, products)
 
 print(list(new_products))
-
-# 💡 
-
-# 💡 
-# 💡 
-# 💡 
-# 💡 

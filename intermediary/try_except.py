@@ -73,8 +73,3 @@ def convert_number(value):
 number = convert_number('5.5')
 
 print(number)
-
-
-# 💡 
-# 💡 
-# 💡 

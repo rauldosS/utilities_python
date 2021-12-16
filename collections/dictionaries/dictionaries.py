@@ -65,8 +65,3 @@ numbers.pop(1)
 
 # 💡 popitem - remove last item
 numbers.popitem()
-
-# 💡 
-# 💡 
-# 💡 
-# 💡 

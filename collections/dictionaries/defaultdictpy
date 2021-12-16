@@ -1,0 +1,21 @@
+# Using defaultdict objects
+from collections import defaultdict
+
+
+def main():
+    # Define a list of items you want to count
+    fruits = ["apple", "pear", "orange", "banana", "apple", "grape", "banana", "banana"]
+
+    # Use a dictionary to count each element
+    fruit_counter = defaultdict(int)
+
+    # Count list elements
+    for fruit in fruits:
+        fruit_counter[fruit] += 1
+
+    # Print the result
+    for (c, v) in fruit_counter.items():
+        print(c + ": " + str(v))
+
+if __name__ == "__main__":
+    main()

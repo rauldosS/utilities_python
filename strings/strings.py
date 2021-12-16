@@ -11,12 +11,3 @@ for value in l1:
 
 # 💡 join
 print( ' '.join(['Brazil', 'is', 'the', 'country', 'of', 'football,', 'Brazil', 'is', 'fifth!']) )
-
-# 💡 
-# 💡 
-# 💡 
-# 💡 
-# 💡 
-# 💡 
-# 💡 
-# 💡 
