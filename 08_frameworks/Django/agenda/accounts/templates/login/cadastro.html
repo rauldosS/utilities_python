@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block titulo %}Cadastro{% endblock %}
+
+{% load static %}
+
+{% block conteudo %}
+<h1 class="m-3">Cadastro</h1>
+
+<form method="POST" action="{% url 'accounts:cadastro' %}">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" value="{{ request.POST.nome }}">
+    </div>
+    <div class="form-group">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenome" name="sobrenome" value="{{ request.POST.sobrenome }}">
+    </div>
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" value="{{ request.POST.email }}">
+    </div>
+
+    <div class="form-group">
+        <label for="usuario">Usuário</label>
+        <input type="text" class="form-control" id="usuario" name="usuario" value="{{ request.POST.usuario }}">
+    </div>
+
+    <div class="form-group">
+        <label for="senha">Password</label>
+        <input type="password" class="form-control" id="senha" name="senha">
+    </div>
+    <div class="form-group">
+        <label for="valida_senha">Repetir senha</label>
+        <input type="password" class="form-control" id="valida_senha" name="valida_senha">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cadastrar-me</button>
+</form>
+{% endblock %}
