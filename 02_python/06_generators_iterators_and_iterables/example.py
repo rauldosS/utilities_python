@@ -9,6 +9,27 @@
         → 
 '''
 
+"""
+for lê algo que chamamos de "iterável" (do inglês iterable)... Um iterável é algo que você pode percorrer 
+(geralmente tem índices, como a string - ou não, como generators)... O que o for faz é solicitar ao iterador 
+(que vamos aprender mais pra frente) da string: "Ei string, você tem um próximo valor?", e a string responde 
+-> "Sim, aqui está" (letra) ou "Não, erro -> StopIteration".
+
+O que "letra" é nesse código, é o valor que a string entrega na parte do "Sim". Isso ocorre repetidas vezes 
+até o iterável (a string) falar que não tem mais valores. Nesse caso seu iterador (que vamos ver pra frente) 
+vai levantar um erro (literalmente). Ao chegar na letra "a" final (de roma) o for vai solicitar mais um valor 
+para a string. Nesse momento, como eles já acabaram, ela lança um erro chamado de StopIteration.
+
+O for é programado, pelos desenvolvedores do Python, para capturar esse erro e parar as solicitações. 
+Por esse motivo, nós não vemos erro e o for termina o código (do contrário isso se tornaria um loop infinito).
+
+A parte mais legal disso tudo, é que enquanto o for solicita o valor e recebe de volta algo da string (uma letra), 
+ele nos permite fazer algo com esse valor. Por exemplo, você fez "print(letra)", mas poderia ser qualquer outra coisa.
+
+Perdoe se a resposta soou um tanto técnica, mas é que eu quero deixar essa pergunta como "melhores perguntas", 
+porque ela ocorre bastante por aqui. Espero ter entendido =)
+"""
+
 
 numbers = list(range(10))
 
